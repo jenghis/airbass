@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840B75601C9B38C700DEF00E /* AirTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B755F1C9B38C700DEF00E /* AirTunes.swift */; };
+		840B75621C9B38E000DEF00E /* AirTunesRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B75611C9B38E000DEF00E /* AirTunesRemote.swift */; };
+		842E500A1CB8BFB500761F4A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E50071CB8BFB500761F4A /* GCDAsyncSocket.m */; };
+		842E500B1CB8BFB500761F4A /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E50091CB8BFB500761F4A /* GCDAsyncUdpSocket.m */; };
+		849A62281CCC09AB00F8D16B /* EventTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A62271CCC09AB00F8D16B /* EventTap.m */; };
+		84A0B2831C284C2D00C2F4BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0B2821C284C2D00C2F4BB /* AppDelegate.swift */; };
+		84A0B2871C284C2D00C2F4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A0B2861C284C2D00C2F4BB /* Assets.xcassets */; };
+		84A0B28A1C284C2E00C2F4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0B2881C284C2E00C2F4BB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84739C2C1C75808C00931468 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		840B755F1C9B38C700DEF00E /* AirTunes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTunes.swift; sourceTree = "<group>"; };
+		840B75611C9B38E000DEF00E /* AirTunesRemote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTunesRemote.swift; sourceTree = "<group>"; };
+		842E50061CB8BFB500761F4A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		842E50071CB8BFB500761F4A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		842E50081CB8BFB500761F4A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		842E50091CB8BFB500761F4A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		8473462E1CE2770000578C8F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8473462F1CE2770000578C8F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		847346341CE2CC7D00578C8F /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		849A62261CCC09AB00F8D16B /* EventTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTap.h; sourceTree = "<group>"; };
+		849A62271CCC09AB00F8D16B /* EventTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTap.m; sourceTree = "<group>"; };
+		84A0B27F1C284C2D00C2F4BB /* AirBass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirBass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A0B2821C284C2D00C2F4BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A0B2861C284C2D00C2F4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A0B2891C284C2E00C2F4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A0B28B1C284C2E00C2F4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA65401C6ADFB900051AA5 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A0B27C1C284C2D00C2F4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847B33A21C85773C004914F3 /* GCDAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				842E50061CB8BFB500761F4A /* GCDAsyncSocket.h */,
+				842E50071CB8BFB500761F4A /* GCDAsyncSocket.m */,
+				842E50081CB8BFB500761F4A /* GCDAsyncUdpSocket.h */,
+				842E50091CB8BFB500761F4A /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCDAsyncSocket;
+			sourceTree = "<group>";
+		};
+		849A62291CCC09B500F8D16B /* EventTap */ = {
+			isa = PBXGroup;
+			children = (
+				849A62261CCC09AB00F8D16B /* EventTap.h */,
+				849A62271CCC09AB00F8D16B /* EventTap.m */,
+			);
+			name = EventTap;
+			sourceTree = "<group>";
+		};
+		84A0B2761C284C2D00C2F4BB = {
+			isa = PBXGroup;
+			children = (
+				84A0B2811C284C2D00C2F4BB /* AirBass */,
+				84A0B2801C284C2D00C2F4BB /* Products */,
+				8473462E1CE2770000578C8F /* LICENSE */,
+				8473462F1CE2770000578C8F /* README.md */,
+				847346341CE2CC7D00578C8F /* screenshot.png */,
+			);
+			sourceTree = "<group>";
+		};
+		84A0B2801C284C2D00C2F4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A0B27F1C284C2D00C2F4BB /* AirBass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A0B2811C284C2D00C2F4BB /* AirBass */ = {
+			isa = PBXGroup;
+			children = (
+				847B33A21C85773C004914F3 /* GCDAsyncSocket */,
+				849A62291CCC09B500F8D16B /* EventTap */,
+				84A0B2821C284C2D00C2F4BB /* AppDelegate.swift */,
+				840B755F1C9B38C700DEF00E /* AirTunes.swift */,
+				840B75611C9B38E000DEF00E /* AirTunesRemote.swift */,
+				84DA65401C6ADFB900051AA5 /* BridgingHeader.h */,
+				84A0B2861C284C2D00C2F4BB /* Assets.xcassets */,
+				84A0B2881C284C2E00C2F4BB /* Main.storyboard */,
+				84A0B28B1C284C2E00C2F4BB /* Info.plist */,
+			);
+			name = AirBass;
+			path = airbass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A0B27E1C284C2D00C2F4BB /* AirBass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A0B28E1C284C2E00C2F4BB /* Build configuration list for PBXNativeTarget "AirBass" */;
+			buildPhases = (
+				84A0B27B1C284C2D00C2F4BB /* Sources */,
+				84A0B27C1C284C2D00C2F4BB /* Frameworks */,
+				84A0B27D1C284C2D00C2F4BB /* Resources */,
+				84739C2C1C75808C00931468 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirBass;
+			productName = airplayd;
+			productReference = 84A0B27F1C284C2D00C2F4BB /* AirBass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A0B2771C284C2D00C2F4BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					84A0B27E1C284C2D00C2F4BB = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84A0B27A1C284C2D00C2F4BB /* Build configuration list for PBXProject "AirBass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A0B2761C284C2D00C2F4BB;
+			productRefGroup = 84A0B2801C284C2D00C2F4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A0B27E1C284C2D00C2F4BB /* AirBass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A0B27D1C284C2D00C2F4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A0B2871C284C2D00C2F4BB /* Assets.xcassets in Resources */,
+				84A0B28A1C284C2E00C2F4BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A0B27B1C284C2D00C2F4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A62281CCC09AB00F8D16B /* EventTap.m in Sources */,
+				842E500A1CB8BFB500761F4A /* GCDAsyncSocket.m in Sources */,
+				842E500B1CB8BFB500761F4A /* GCDAsyncUdpSocket.m in Sources */,
+				840B75621C9B38E000DEF00E /* AirTunesRemote.swift in Sources */,
+				840B75601C9B38C700DEF00E /* AirTunes.swift in Sources */,
+				84A0B2831C284C2D00C2F4BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A0B2881C284C2E00C2F4BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A0B2891C284C2E00C2F4BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A0B28C1C284C2E00C2F4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A0B28D1C284C2E00C2F4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84A0B28F1C284C2E00C2F4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/airbass",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/airbass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenghis.airbass;
+				PRODUCT_NAME = AirBass;
+				SWIFT_OBJC_BRIDGING_HEADER = airbass/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A0B2901C284C2E00C2F4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/airbass",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/airbass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenghis.airbass;
+				PRODUCT_NAME = AirBass;
+				SWIFT_OBJC_BRIDGING_HEADER = airbass/BridgingHeader.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A0B27A1C284C2D00C2F4BB /* Build configuration list for PBXProject "AirBass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A0B28C1C284C2E00C2F4BB /* Debug */,
+				84A0B28D1C284C2E00C2F4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A0B28E1C284C2E00C2F4BB /* Build configuration list for PBXNativeTarget "AirBass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A0B28F1C284C2E00C2F4BB /* Debug */,
+				84A0B2901C284C2E00C2F4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A0B2771C284C2D00C2F4BB /* Project object */;
+}
