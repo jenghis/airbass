@@ -5,7 +5,7 @@ AirBass
 [![Platforms macOS](https://img.shields.io/badge/Platforms-macOS-lightgray.svg?style=flat)](http://www.apple.com/macos/)
 [![License Apache](https://img.shields.io/badge/License-APACHE2-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-AirBass is an AirPlay server implemented in Swift. It enables wireless audio streaming from an iOS device to a Mac using Apple\'s AirPlay technology.
+AirBass is an AirPlay server implemented in Swift. It enables wireless audio streaming from an iOS device to a Mac using Apple's AirPlay technology.
 
 <img src="https://raw.githubusercontent.com/jenghis/airbass/master/screenshot.png" width="700">
 
