@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:AirBass.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AirTunes/AirTunes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediaKeys/MediaKeys.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ABPlayerController/ABPlayerController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ABPlayerController/ABPlayerInterface.xcodeproj">
+   </FileRef>
+</Workspace>
